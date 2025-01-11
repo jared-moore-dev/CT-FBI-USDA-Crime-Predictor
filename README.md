@@ -65,22 +65,16 @@ pip install -r requirements.txt
    cd food-crime-analysis
    ```
 
-2. Preprocess the data:
-   ```bash
-   python src/utils.py preprocess
-   ```
+2. Open with ipynb editor of your choice:
 
-3. Run model training and evaluation:
-   ```bash
-   python src/models.py train
-   ```
+3. "Run All" to automatically download data, train models, and evaluate results, or step through piecewise
 
 4. Explore the results in `results/` directory or use Jupyter notebooks for step-by-step analysis.
 
 ### Key Visualizations
-- **Correlation Matrix**: Highlights relationships between socioeconomic factors, food security, and crime.
-- **t-SNE Visualization**: Shows clustering of geospatial crime data.
-- **Model Performance Comparison**: Demonstrates KNN regression's effectiveness in predicting crime.
+- **Correlation Matrix**: Highlights relationships between socioeconomic factors, food security, and crime. ![Correlation Matrix](./Results/CorrelationMatrix.png)
+- **t-SNE Visualization**: Shows clustering of geospatial crime data. ![T-SNE Visualization](./Results/T-SNEData.png)
+- **Model Performance Comparison**: Demonstrates KNN regression's effectiveness in predicting crime. ![Model Evaluation](./Results/ModelEvaluationR-Square.png)
 
 ## Key Findings
 - **KNN Regression** emerged as the most accurate model for crime prediction.
