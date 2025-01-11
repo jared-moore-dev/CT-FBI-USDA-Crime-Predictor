@@ -99,4 +99,4 @@ This project is licensed under the MIT License. See `LICENSE` for more details.
 - **CT Data Collaborative**
 
 ---
-For questions or collaborations, please contact **Jared M. Moore** via [LinkedIn](https://linkedin.com/in/your-profile) or open an issue in this repository.
+For questions or collaborations, please contact **Jared M. Moore** via [LinkedIn](www.linkedin.com/in/jared-moore-dev) or open an issue in this repository.
